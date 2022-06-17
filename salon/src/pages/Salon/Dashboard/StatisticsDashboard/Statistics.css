@@ -1,0 +1,31 @@
+.w48 {
+  height: 48px;
+  width: 48px;
+}
+
+.total_sales {
+  background-color: #eaf6fb;
+  border: 1px solid #d7eef8;
+}
+
+.acquired_clients {
+  background-color: #ffeaee;
+  border: 1px solid #ffd7df;
+}
+
+.client_retention {
+  background-color: #fff8e5;
+  border: 1px solid #fff2ce;
+}
+
+.client_retention_color {
+  color: #fcb503;
+}
+
+.bgLightRed{
+    background-color: #FFEAEE;
+}
+
+.brownColor {
+  color: #801c2e;
+}

@@ -1,0 +1,64 @@
+.btn-blog {
+  background-color: #262729;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-family: fThin;
+  padding: 5px 20px;
+  border-radius: 8px;
+}
+
+.mlr80 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.red-btn {
+  background-color: var(--colorRed);
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 8px 30px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+.social-icons {
+  position: absolute;
+  right: -65px;
+}
+
+@media only screen and (max-width: 767px) {
+  /* .social-icons {
+    display: flex;
+    justify-content: space-between;
+    top: 20%;
+    align-items: center;
+    right: 0px;
+    
+  } */
+  .social-icons {
+    position: relative;
+    display: inline-flex;
+    right: 0;
+  }
+  .overscrollx {
+    overflow-x: scroll;
+  }
+}
+
+/* .fb_logo svg path:hover {
+  fill: #1877f2;
+}
+.inst_logo svg path:hover {
+  fill: #8a3ab9;
+}
+
+.twitter_logo svg path:hover {
+  fill: #1DA1F2;
+}
+
+.yt_logo svg path:hover {
+  fill: #ff001a;
+} */

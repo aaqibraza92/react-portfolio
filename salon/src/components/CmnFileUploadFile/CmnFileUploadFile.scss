@@ -1,0 +1,24 @@
+.CmnFileUploadFile {
+    background: transparent;
+    border: 2px solid var(--colorBlue);
+    cursor: pointer;
+  }
+  .btn_delete_iconFile {
+    display: block;
+    border: none;
+    background: transparent;
+  }
+  .borFileUpl {
+    border: 1px solid #494949;
+    padding: 3px 10px;
+  }
+  .CmnFileUploadFile + div {
+    margin-top: 10px;
+  }
+  .CmnFileUploadFile:hover {
+    background: var(--colorBlue);
+  }
+  .CmnFileUploadFile:hover span,.CmnFileUploadFile:hover path{
+    color: #fff;
+    stroke: #fff;
+  }

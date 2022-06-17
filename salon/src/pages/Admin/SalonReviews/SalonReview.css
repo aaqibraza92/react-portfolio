@@ -1,0 +1,25 @@
+.overall_ratings {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.overall_ratings_red {
+  background: #d50303;
+}
+
+.overall_ratings_green {
+  background: #5cb84b;
+}
+
+.overall_ratings_orange {
+  background: #ff9538;
+}
+
+.borderBlue {
+  border: 2px solid var(--colorBlue);
+}

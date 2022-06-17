@@ -1,0 +1,14 @@
+.about_us_company{
+   background-image: url(../../../assets/Img/AboutUs/bgone.png);
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+/* .mtup100 {
+   margin-top: -100px;
+ } */
+ .bg_grey{
+    background-color: #F5F7F9;
+ }
+ .text_pink {
+   color: #FF385C;
+ }

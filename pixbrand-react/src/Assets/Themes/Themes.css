@@ -1,0 +1,77 @@
+:root {
+  --colorBlack: #20272B;
+  --colorLightBlack:#7D7D7D;
+  --colorLightGrey:#191919;
+  --colorWhite: #fff;
+  --colorGrey: #F7F8F9;
+  --colorLightOrange: #f9f7f7;
+  --colorOrange: #ec7523;
+  --colorRed: #FF0A2B;
+  --colorGreen: #1CAF4D;
+  --colorYellow: #F9A52B;
+  --colorPara: #54595C;
+  --colorBlue:#47BBD0;
+  --colorDarkBlue:#293F4F;
+  --colorLightBlue:#D4ECF1;
+  --colorDarkGrey:#52585B;
+
+}
+.colorYellow{
+  color: var(--colorYellow);
+}
+.colorBlack{
+  color: var(--colorBlack);
+}
+.colorDarkGrey{
+  color: var(--colorDarkGrey);
+}
+.colorLightBlack {
+  color: var(--colorLightBlack);
+}
+.colorBlue{
+  color: var(--colorBlue);
+}
+.bgLightBlack{
+  background: var(--colorLightBlack);
+}
+.bgBlue{
+  background: var(--colorBlue);
+}
+.bgLightBlue{
+  background: var(--colorLightBlue);
+}
+.bgDarkBlue{
+  background: var(--colorDarkBlue);
+}
+.bgRed{
+  background: var(--colorRed);
+}
+.bgGrey{
+  background: var(--colorGrey);
+}
+.bgLightGrey{
+  background: var(--colorLightGrey);
+}
+a:hover{
+  color: var(--colorRed);
+}
+
+h1{
+  font-size: 45px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+h3{
+  font-size: 28px;
+}
+
+p{
+  font-size: 17px;
+}
+
+.borBottom {
+  border-bottom: 3px solid var(--colorBlue);
+}

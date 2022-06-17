@@ -1,0 +1,89 @@
+.services_tab ul li {
+  border-right: 2px solid #dee2e6;
+  /* padding: 10px 0px; */
+}
+.bBottomRed {
+  border-bottom: 1px solid var(--colorRed);
+}
+
+/* / For Custom Input Fields  / */
+.form_custom {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+textarea.form_custom {
+  border: none;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-bottom: 1px solid #ddd !important;
+  width: 100%;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+textarea.form_custom:focus {
+  border: none;
+  outline: none;
+  
+}
+/* / For Custom Input Fields  / */
+
+
+/* / Salon Employe Modal CSS  / */
+.ml43{
+  margin-left: 43px;
+}
+.paddingHandle{
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.lightGreen{
+  background: #E7F5E4;
+}
+.lightPink{
+  background: #F9D9D9;
+}
+.lightYellow{
+  background: #FFF4D9;
+}
+
+.circleFlow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.transparentBtn {
+  border: 2px solid #E2E3E9;
+  width: 38px;
+  height: 38px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tableRota thead {
+  background: #F5F7F9;
+}
+.trChildtdWhiteColor td{
+  background: #fff;
+}
+.imgWrapperRota {
+  width: 52px;
+  height:52px;
+}
+.mb0Radio .mb12 label {
+  padding-bottom: 0px;
+}
+.mb0Radio .mb12 {
+  margin-bottom: 0px;
+}

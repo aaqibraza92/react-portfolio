@@ -1,0 +1,49 @@
+ul.navigation_list li {
+    width: 16.6%;
+    text-align: center;
+    position: relative;
+  }
+  ul.navigation_list li a {
+    color: #192327;
+    position: relative;
+    padding: 14px;
+    border: 1px solid #F2EEEB;
+    display: block;
+  }
+  ul.navigation_list li a span{
+    position: relative;
+  }
+ 
+ 
+  ul.navigation_list li a span::before {
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: -23px;
+    top: 2px;
+    border-radius: 50%;
+    background-image: url(../../../../assets/Img/salon/balckborder.png);
+  }
+  ul.navigation_list li a.active span::before {
+    content: "";
+    background-color: transparent;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: -23px;
+    top: 2px;
+    border-radius: 50%;
+    background-image: url(../../../../assets/Img/salon/activeborder.png);
+  }
+  ul.navigation_list li a.active {
+    color: #FF385C;
+    background-color: #FF385C36;
+    border-bottom-color: #FF385C;
+  }
+  ul.navigation_list li a:hover{
+    color: #FF385C;
+    background-color: #FF385C36;
+    border-bottom-color: #FF385C;
+  }

@@ -1,0 +1,11 @@
+/* Invoice Data Table CSS  */
+.invoice-table table thead tr th {
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-top-width: 1px;
+}
+.invoice-table table tbody tr td {
+  border-left-width: 1px;
+  border-right-width: 1px;
+}
+/* Invoice Data Table CSS  */

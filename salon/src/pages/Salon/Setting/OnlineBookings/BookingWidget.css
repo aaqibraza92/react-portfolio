@@ -1,0 +1,22 @@
+.w36 {
+  height: 36px;
+  width: 36px;
+}
+
+.circle_no {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #37a3d2;
+  color: #37a3d2;
+}
+
+.bgCream {
+  background-color: #f5f7f9;
+}
+
+/* header custom height */
+.height_70_vh {
+  height: calc(100vh - 160px);
+  overflow-x: auto;
+}

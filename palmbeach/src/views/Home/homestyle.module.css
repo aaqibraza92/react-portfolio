@@ -1,0 +1,211 @@
+.banner_image {
+    position: relative;
+    /* left: -12px; */
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .banner_image {
+        position: relative;
+        left: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.right_side_container {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-top: 5vh;
+}
+
+@media screen and (min-width: 1400px) {
+    .right_side_container {
+        padding-top: 10vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .right_side_container {
+        padding-top: 20vh;
+    }
+}
+
+.banner_heading {
+    font-family: "WorkSansBold";
+    font-size: calc(1.5vw);
+    text-align: left;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.banner_title {
+    font-family: "SpaceMonoBold";
+    font-size: calc(3vw);
+    text-align: left;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.banner_date {
+    font-family: "WorkSansRegular";
+    font-size: calc(2vw);
+    text-align: left;
+    width: 75%;
+    margin-bottom: 15px;
+}
+
+.banner_location {
+    font-family: "SpaceMonoRegular";
+    font-size: calc(1.5vw);
+    text-align: left;
+    width: 75%;
+}
+
+.welcome_msg_container {
+    background-color: #171915;
+    color: white;
+    font-family: "WorkSansRegular";
+    font-size: 1.8vw;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 0px;
+}
+
+.banner_date_767 {
+    top: -50px;
+    position: relative;
+    background-color: black;
+    height: auto;
+    color: yellow;
+    padding-left: 12%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 6vw;
+    text-align: start;
+    border-top: 2px solid white;
+}
+
+.storytitle {
+    text-align: start;
+    font-size: 5vw;
+}
+
+@media screen and (max-width: 767px) {
+    .storytitle {
+        text-align: center;
+    }
+}
+
+.linkbutton {
+    font-family: "WorkSansRegular";
+    text-decoration: underline;
+    text-transform: capitalize;
+    margin-right: 30px;
+    cursor: pointer;
+    padding: 7px 50px;
+    font-size: 1.4vw;
+    /* background-color: #171915; */
+    opacity: .9;
+    /* color: yellow; */
+    border-radius: 50px;
+    transition: background-color all 0.2s ease-in;
+}
+
+
+/* .linkbutton:hover {
+    background-color: #171915;
+    opacity: 1;
+    color: white;
+} */
+
+@media screen and (max-width: 767px) {
+    .linkbutton {
+        align-self: center;
+    }
+}
+
+.storyitemcontainer {
+    margin-bottom: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.storyitem {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border: 0px solid #ddd;
+}
+
+.storyitem :global(div.image) {
+    width: 100%;
+    height: auto;
+}
+
+.storyitem :global(img.image) {
+    width: 100%;
+    height: auto;
+    /* border-radius: 25px; */
+}
+
+.storyitem :global(div.title) {
+    align-self: stretch;
+    text-align: start;
+    font-family: "SpaceMonoBold";
+    font-size: 1.2vw;
+    margin-top: 25px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.storyitem :global(div.title02) {
+    align-self: stretch;
+    text-align: start;
+    font-family: "WorkSansBold";
+    font-size: 1.8vw;
+    margin-top: 10px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+
+.storyitem :global(div.discription) {
+    align-self: stretch;
+    text-align: start;
+    font-family: "WorkSansRegular";
+    font-size: 1.5vw;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.gallery_item {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.5vw;
+}
+
+.gallery_item:hover {
+    background-color: #dedad7 !important;
+    color: black;
+}
+
+.gallery_item :global(img.image) {
+    border: 0px solid rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+

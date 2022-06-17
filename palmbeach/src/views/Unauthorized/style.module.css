@@ -1,0 +1,28 @@
+.pagecontainer{
+    background-color: rgb(74, 73, 78);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.color_title{
+    color: goldenrod!important;
+}
+.color_title2{
+    color: red!important;
+}
+
+.message{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 60px;
+    color: white;
+}

@@ -1,0 +1,30 @@
+.bg_gradiant {
+   background: rgb(255,255,255);
+   background: linear-gradient(0deg, rgba(255,255,255,1) 49%, rgba(255,234,236,1) 100%);
+ }
+ .bg_four_image{
+   background-image: url(../../../assets/Img/salon/MembershipPlan/one.png);
+   background-size: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+ .tab_menu_salon {
+   display: flex;
+   justify-content: center;
+   background-color: #FFEAEC;
+   width: 208px;
+   margin: 0 auto;
+   border-radius: 30px;
+ }
+ .tab_menu_salon li {
+   padding: 6px 20px;
+   border-radius: 30px;
+   margin: 4px 3px;
+   background-color: transparent;
+ }
+ 
+ .tab_menu_salon li.activeTab {
+   background-color: #FF385C;
+   color: #fff;
+ }
+ 

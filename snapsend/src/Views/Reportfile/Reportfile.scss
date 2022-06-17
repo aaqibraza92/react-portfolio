@@ -1,0 +1,21 @@
+
+
+.emergency {
+    border: 2px solid #FEACAD;
+    border-radius: 5px;
+    background: #FFEEEF;
+    padding: 10px 20px;
+}
+.grey_border_area {
+    border: 1px solid #DADADA;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.grey_border_area.voicePr {
+    padding: 0px;
+}
+.voicePr .banner_upload_area {
+    border: none;
+    max-height: 110px;
+}

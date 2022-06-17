@@ -1,0 +1,31 @@
+.error_section{
+    background: var(--color_dark_jomney);
+    padding: 100px 0;
+    min-height: calc(100vh - 79px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content{
+        .color_light_white{
+            color: #E9EFEF;
+        }
+
+        .links{
+            li{
+                padding: 0px 15px;
+
+                a{
+                    text-decoration: underline !important;
+                    transition: var(--transition) ;
+                    
+                    &:hover{
+                        color: var(--color_red);
+                        text-decoration: none !important;
+                    }
+                }
+            }
+        }
+
+    }
+}

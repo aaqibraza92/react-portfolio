@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: "SpaceMonoRegular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+@font-face {
+  font-family: "SpaceMonoBold";
+  src: local("SpaceMono-Bold"),
+    url(./assets/fonts/SpaceMono-Bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: "SpaceMonoRegular";
+  src: local("SpaceMonoRegular"),
+    url(./assets/fonts/SpaceMono-Regular.ttf) format("opentype");
+}
+@font-face {
+  font-family: "SpaceMonoBoldItalic";
+  src: local("SpaceMonoBoldItalic"),
+    url(./assets/fonts/SpaceMono-BoldItalic.ttf) format("opentype");
+}
+@font-face {
+  font-family: "SpaceMonoItalic";
+  src: local("SpaceMonoItalic"),
+    url(./assets/fonts/SpaceMono-Italic.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: "WorkSansBold";
+  src: local("WorkSans-Bold"),
+    url(./assets/fonts/static/WorkSans-Bold.ttf) format("opentype");
+}
+@font-face {
+  font-family: "WorkSansRegular";
+  src: local("WorkSansRegular"),
+    url(./assets/fonts/static/WorkSans-Regular.ttf) format("opentype");
+}
+@font-face {
+  font-family: "WorkSansBoldItalic";
+  src: local("WorkSansBoldItalic"),
+    url(./assets/fonts/static/WorkSans-BlackItalic.ttf) format("opentype");
+}
+@font-face {
+  font-family: "WorkSansItalic";
+  src: local("WorkSansItalic"),
+    url(./assets/fonts/static/WorkSans-Italic.ttf) format("opentype");
+}

@@ -1,0 +1,121 @@
+.salon_services_tab a {
+   width: 200px;
+   display: inline-block;
+   text-align: center;
+   padding: 14px;
+   border: 1px solid #E2E3E9;
+   color: #282A3A;
+ }
+ .radius_left_top {
+  border-radius: 8px 0px 0px 0px;
+}
+.salon_services_tab .active {
+  border-color: #FF385C5E !important;
+  background-color: #FFEAEC;
+  border-bottom-color: #FF385C;
+}
+
+.text-red{
+  color: red;
+}
+/* .textarea_set {
+  position: absolute !important;
+  top: 41px !important;
+  height: auto !important;
+} */
+.salon_select .themeSelect__control {
+  border-radius: 30px;
+}
+.salon_select .themeSelect__value-container {
+  padding: 0px 15px !important;
+}
+.salon_note .giconinput_absolute {
+  position: absolute;
+  height: auto;
+  top: 41px;
+}
+
+.table_sticy_first {
+  background-color: #fff !important;
+  left: 0;
+  position: sticky;
+  z-index: 2;
+  border-bottom-width: 1px !important;
+}
+.table_sticy_last {
+  right: 0;
+  position: sticky;
+  z-index: 0;
+  border-bottom-width: 1px !important;
+}
+
+/* / textarea / */
+
+.salon_note textarea {
+  background-color: #FCB50321;
+  width: auto;
+  box-shadow: 0px 1px 2px rgba(0,0,0,0.1);
+  padding: .5rem .8rem;
+    padding-left: 0.8rem;
+  padding-left: 0.8rem;
+  margin: 0rem;
+  border-radius: 5px;
+  display: block;
+  border: 1px solid #e8e9e9;
+  outline: none;
+  color: #4D3701;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-size: 16px;
+  min-width: 100px;
+  width: 100%;
+  resize: none;
+  -webkit-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  padding-left: 35px;
+}
+
+.salon_note textarea:focus {
+  background-color: #FF385C17;
+  border: 1px solid #ff385c;
+  box-shadow: 0px 1px 1px #ff385c5e;
+}
+.icon_note {
+  position: absolute;
+  top: 32px;
+  left: 15px;
+}
+.h_130 {
+  height: 130px;
+}
+.table_s_x table.table-striped thead tr th:nth-child(1){
+  background-color: #fff !important;
+  left: 0;
+  position: sticky;
+  z-index: 2;
+  border-bottom-width: 1px !important;
+}
+.table_s_x table.table-striped thead tr th:nth-last-child(1){
+  right: 0;
+  position: sticky;
+  z-index: 2;
+  border-bottom-width: 1px !important;
+  background-color: #fff !important;
+}
+
+.table_s_x table.table-striped tbody tr td:nth-child(1){
+  background-color: #fff !important;
+  left: 0;
+  position: sticky;
+  z-index: 2;
+  border-bottom-width: 1px !important;
+}
+.table_s_x table.table-striped tbody tr td:nth-last-child(1){
+  right: 0;
+  position: sticky;
+  z-index: 2;
+  border-bottom-width: 1px !important;
+  background-color: #fff !important;
+}

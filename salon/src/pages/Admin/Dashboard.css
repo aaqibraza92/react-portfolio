@@ -1,0 +1,31 @@
+.admin-body-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2EFF3;
+  }
+  .admin-sidebar, .sidebar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-width: 250px;
+    max-width: 250px;
+    overflow-y: auto;
+  }
+  .admin-sidebar{
+    min-width: 250px;
+    width: 250px;
+    left: 0 !important;
+  }
+  .sidebar-container {
+    position: fixed;
+    background-color: #282A3A;
+    border-right: 1px solid hsla(0,0%,100%,.5);
+    box-shadow: 2px 0 5px rgba(0,0,0,.3);
+    height: calc(100%);
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }

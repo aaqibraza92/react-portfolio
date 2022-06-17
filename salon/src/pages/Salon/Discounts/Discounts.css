@@ -1,0 +1,49 @@
+.salon_membership tbody tr td {
+   border: 1px solid #E2E3E9;
+ }
+ .salon_membership thead th {
+   padding: 17px 10px;
+   border: 1px solid #E2E3E9;
+ }
+ .color_dark_alert{
+   color: #805C02;
+ }
+ .bg_alert {
+  background-color: #FCB50317;
+  padding: 12px;
+}
+.table_border_none thead th {
+  font-weight: normal;
+  font-size: 12px;
+}
+.table_border_none thead {
+  border-style: none;
+}
+.table_border_none tbody td {
+  border: none !important;
+}
+.table.table_border_none > :not(:first-child) {
+  border-top: 0px solid var(--colorLightGrey) !important;
+}
+.table_border_none tbody, .table_border_none td, .table_border_none tfoot, .table_border_none th, .table_border_none thead, .table_border_none tr {
+  border-color: inherit;
+  border-style: none;
+  border-width: 0;
+}
+
+.table_border_none .select_border .themeSelect__value-container {
+  height: 40px;
+}
+.table_border_none .select_border .themeSelect__input-container {
+  padding: 0px;
+  position: absolute;
+}
+.table_border_none .select_border .themeSelect__single-value {
+  font-size: 14px;
+}
+.table_border_none .select_border .themeSelect__placeholder{
+  font-size: 14px;
+}
+.ml-3{
+   margin-left: 25px !important;
+}

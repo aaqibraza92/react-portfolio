@@ -1,0 +1,104 @@
+.bg_services_tab {
+  background-color: #f5f7f9;
+}
+
+.services_tab ul {
+  list-style: none;
+  display: flex;
+}
+
+.services_tab ul li {
+  border-right: 2px solid #dee2e6;
+  padding: 10px 0px;
+}
+
+.services_tab ul li a {
+  padding: 12px 15px 12px 15px;
+  border-bottom: 2px solid transparent;
+  color: #282a3a;
+}
+
+.services_tab ul li a:hover {
+  color: #282a3a;
+  border-color: #ff385c;
+}
+
+.services_tab ul li a.active {
+  color: #282a3a;
+  border-color: #ff385c;
+}
+
+.services_bottom_border {
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.services_border_box {
+  border: 1px solid #e2e3e9;
+  border-left-color: rgb(226, 227, 233);
+  border-left-width: 1px;
+  border-radius: 5px;
+  border-left-width: 5px;
+  border-left-color: #ff385c;
+  padding: 0px 15px;
+}
+.color_span {
+  color: #37a3d2;
+}
+
+/* .border-bottom.all_services_tab_active {
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -webkit-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+ } */
+/* .all_services_tab_active:hover {
+   border: 1px solid #282A3A !important;
+   border-radius: 8px;
+   padding: 10px 16px;
+   box-shadow: 0px 0px 6px 0px #00000040;
+ } */
+
+/* / select border bottom / */
+.select_border_edit .themeSelect__control {
+  border-bottom: 1px solid #ddd;
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0px;
+}
+.checkbox_section div {
+  width: fit-content;
+  background-color: #f5f7f9;
+  border-radius: 30px;
+  padding: 4px 7px;
+}
+.checkbox_section {
+  display: flex;
+  justify-content: space-between;
+}
+.select_border_edit .themeSelect__control .themeSelect__value-container {
+  padding: 0px;
+}
+.checkbox_green {
+  display: flex;
+}
+
+.checkbox_green div {
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  margin-right: 12px;
+}
+.checkbox_green div label {
+  display: block;
+  padding: 6px;
+}
+
+/* Add New Modal CSS  */
+.min_box_height {
+  min-height: 270px;
+}

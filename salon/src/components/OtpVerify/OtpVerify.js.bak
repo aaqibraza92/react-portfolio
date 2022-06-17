@@ -1,0 +1,60 @@
+import React, { useState} from "react";
+import OtpInput from "react-otp-input";
+import Img from "../../assets/Img/Img";
+import { AuthMobileVerification } from "../../store/auth/mobileverification/actions";
+import GButton from "../Layout/GButton";
+import GImage from "../Layout/GImage/GImage";
+import "./OTPModal.css";
+import { useDispatch } from 'react-redux';
+
+const OtpVerify = (props) => {
+  const dispatch = useDispatch();
+  const [otp, setotp] = useState(null);
+  const callbackState = (value) => {
+    props.getStateFromComp(value);
+    setotp(value);
+  };
+
+  const handleFormSubmit = () => {
+    console.log("mobver");
+    const iData = {
+      otp: otp,
+      mobile: "7589641236",
+    };
+
+    dispatch(AuthMobileVerification(iData));
+  };
+  return (
+    <>
+      <div className="text-center mx-auto otpWrapper radius5  mobWidth100 pt30 pb30 pl30 pr30">
+        {props.iconImage && (
+          <div className="mb30">
+            <GImage src={props.iconImage} />
+          </div>
+        )}
+        {props.heading && (
+          <h4 style={{ fontWeight: "900" }}>{props.heading}</h4>
+        )}
+
+        {props.text && (
+          <p style={{ fontSize: "13px" }} className="text-center">
+            {props.text}
+          </p>
+        )}
+
+        <div className="mb15 otpmodalnew_otpinput">
+          <OtpInput
+            value={otp}
+            onChange={(e) => callbackState(e)}
+            numInputs={4}
+            separator={<span className="otpmodalnew_otpseprator"></span>}
+          />
+        </div>
+
+        <GButton onClick={handleFormSubmit}>Verify</GButton>
+      </div>
+    </>
+  );
+};
+
+export default OtpVerify;

@@ -1,0 +1,3 @@
+export const CMS_LIST= "CMS_LIST"
+export const CMS_LIST_SUCCESS= "CMS_LIST_SUCCESS"
+export const CMS_LIST_FAILURE= "CMS_LIST_FAILURE"

@@ -1,0 +1,56 @@
+
+@media only screen and (min-width: 767px) {
+    .WrapperSelector::after {
+        content: "";
+        position: absolute;
+        background: #ddd;
+        right: 20px;
+        width: 1px;
+        height: 100%;
+        top: 0px;
+    }
+    .WrapperSelector {
+        padding-right: 70px;
+        position: relative;
+    }
+    
+    .p_r_30_d{
+        padding-right: 30px;
+    }
+  }
+
+
+
+
+@media only screen and (min-width: 767px) {
+    .max-80{
+        max-width: 80%;
+    }
+  }
+
+  .modal_wrapper {
+    padding: 40px 30px;
+}
+
+@media only screen and (max-width: 767px) {
+    body .src_filter {
+        padding-right: 0px;
+    }
+    .topBanner img {
+        height: 140px;
+        object-fit: cover;
+    }
+    body .src_filter {
+        top: 0px;
+    }
+}
+
+.listCnt {
+    padding-left: 0px;
+    list-style: none;
+}
+
+
+.listCnt a {
+    color: var(--color_black);
+}

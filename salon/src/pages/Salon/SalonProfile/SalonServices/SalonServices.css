@@ -1,0 +1,12 @@
+select {
+  word-wrap: normal;
+  background: white;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+select option {
+  font-size: 15px !important;
+  color: var(--colorLightGrey) !important;
+}

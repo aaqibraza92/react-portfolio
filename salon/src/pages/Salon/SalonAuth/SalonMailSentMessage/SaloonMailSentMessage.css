@@ -1,0 +1,9 @@
+.salon-sent-msg{
+    background-image: url(../../../../assets/Img/salon/salonbg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

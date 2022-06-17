@@ -1,0 +1,23 @@
+.circle-pix {
+  height: 350px;
+  width: 350px;
+  position: absolute;
+  right: 15%;
+  top: 400px;
+}
+
+@media only screen and (max-width: 767px) {
+  .circle-pix {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .circle-pix {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    right: 15%;
+    top: 468px;
+  }
+}

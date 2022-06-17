@@ -1,0 +1,10 @@
+.reports_a {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  z-index: 0;
+}
+
+.report_select_bold .themeSelect__single-value {
+  font-weight: bold;
+}

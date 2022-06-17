@@ -1,0 +1,24 @@
+.reviews_textarea textarea {
+  border-left-color: #ff385c !important;
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+  resize: none;
+  background-color: #f5f7f9;
+  border-left-width: 3px;
+}
+
+textarea:focus,
+input.form-control:focus {
+  outline: none !important;
+}
+/* Rating Section  */
+.lg_star span svg{
+  height: 20px;
+  width: 26px;
+}
+
+.sm_star span svg{
+  height: 16px;
+  width: 20px;
+}

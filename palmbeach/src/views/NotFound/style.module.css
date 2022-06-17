@@ -1,0 +1,23 @@
+.container {
+  background-color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  color: goldenrod;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100vw;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message{
+    font-size: 40px;
+}
+
+.fnt_primary{
+    font-family: 'SpaceMonoBold';
+}

@@ -1,0 +1,24 @@
+.modal_header {
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+}
+
+.modal_body {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.nav_item{
+    padding: 15px;
+    border-bottom: 1px solid #DDD;
+    transition: all .2s ease-in-out;
+    font-family: 'WorkSansRegular';
+    font-size: 7vw;
+    color: #e2e2e2;
+}
+
+.nav_item:hover{
+    background-color: #D8D4BE;
+    color: black;
+}

@@ -1,0 +1,28 @@
+.salon-login {
+  background-image: url(../../../../assets/Img/salon/salonbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 120px);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .salon-login-list li::before {
+  content: "";
+  height: 12px;
+  width: 2px;
+  position: absolute;
+  background: var(--colorWhite);
+  left: 84px;
+  top: 6px;
+}
+
+.salon-login-list .salon-login-second-list-item::before {
+  left: 177px;
+}
+
+.salon-login-list .salon-login-third-list-item::before{
+  left: 310px;
+} */

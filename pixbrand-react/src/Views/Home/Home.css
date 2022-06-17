@@ -1,0 +1,85 @@
+@media only screen and (min-width: 991px) {
+  .prr30 {
+    padding-right: 35px;
+  }
+}
+
+/* Accordion CSS  */
+body .accordion__button {
+  position: relative;
+  background-color: #111;
+  color: #fff;
+  font-size: 22px;
+  padding: 18px 18px 18px 0;
+}
+
+body .accordion__button:hover {
+  background-color: transparent;
+}
+
+.accordion__button::before {
+  position: absolute;
+  right: 0px;
+}
+.accordion__panel p {
+  color: var(--colorPara);
+}
+.accordion__button[aria-expanded="true"]::before,
+.accordion__button[aria-selected="true"]::before {
+  content: "";
+  transform: none !important;
+  font-size: 36px;
+  border: none;
+  position: absolute;
+  background: url(../../Assets/Img/uparrow.png) no-repeat;
+  top: 25px;
+  width: 20px;
+}
+body .accordion__button::before {
+  content: "";
+  transform: none !important;
+  font-size: 36px;
+  border: none;
+  position: absolute;
+  /* right: 13px; */
+  background: url(../../Assets/Img/downarrow.png) no-repeat;
+  top: 25px;
+  width: 25px;
+}
+body .accordion {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+}
+
+/* Skills Section Below Marque Component CSS  */
+.w60 {
+  height: 50px;
+  width: 60px;
+}
+
+/* Tab Menu CSS  */
+@media only screen and (max-width: 767px) {
+  .tab_menu {
+    display: flex;
+    display: -webkit-inline-box;
+    overflow-x: scroll;
+  }
+  /* Accordion CSS For Tab View  */
+  .accordion__button {
+    font-size: 18px !important;
+  }
+}
+
+/* Accordion CSS For Tab View  */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .accordion__button {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .accordion__button {
+    font-size: 18px !important;
+  }
+}

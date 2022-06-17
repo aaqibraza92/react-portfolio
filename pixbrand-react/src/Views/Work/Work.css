@@ -1,0 +1,64 @@
+.work-head {
+  margin-left: 100px;
+}
+
+.work-cards {
+  position: relative;
+}
+
+.work-cards::before {
+  content: "";
+  color: red;
+  position: absolute;
+  top: 88px;
+  font-weight: 700;
+  font-size: 16px;
+  left: -10px;
+}
+
+.work-cards-1::before {
+  content: "01";
+}
+
+.work-cards-2::before {
+  content: "02";
+}
+
+.work-cards-3::before {
+  content: "03";
+}
+
+.work-cards-4::before {
+  content: "04";
+}
+
+.work-cards-5::before {
+  content: "05";
+}
+
+.work-cards-6::before {
+  content: "06";
+}
+
+.work-cards-7::before {
+  content: "07";
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .work-cards::before {
+    top: 82px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .work-cards::before {
+    top: 82px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .work-cards::before {
+    top: 71px;
+    left: -5px;
+  }
+}

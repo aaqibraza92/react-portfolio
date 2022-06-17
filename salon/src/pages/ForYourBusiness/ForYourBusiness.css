@@ -1,0 +1,51 @@
+.bg_dark{
+   background-color: #522472;
+}
+.p30 {
+   padding: 100px 45px;
+ }
+ .bg_bolor_grey {
+   background-color: #F5F7F9;
+ }
+ .radius_left{
+    border-radius: 8px 0px 0px 8px;
+ }
+ .letswork{
+    background-image: url(../../assets/Img/ForYourBusiness/pinkonenew.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .card-body_box {
+   background-color: #fff;
+   box-shadow: 0px 0px 15px 0px #0000001c;
+ }
+
+ .prc0{
+   padding-right: 0px !important;
+ }
+ .plc0{
+  padding-left: 0px !important;
+}
+
+ /* slider cs */
+ /* .home_slider_second .swiper-button-next {
+   bottom: 0px !important;
+ }
+ .home_slider_second .swiper-button-prev{
+   bottom: 0px !important;
+ } */
+
+
+  /* responsive css */
+  @media screen and (max-width: 767px) and (min-width: 320px) { 
+    .p30 {
+      padding: 30px 15px;
+    }
+    .prc0{
+      padding-right: 15px !important;
+    }
+    .plc0{
+     padding-left: 15px !important;
+   }
+ }

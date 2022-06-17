@@ -1,0 +1,153 @@
+/* Red Straight Border  */
+.straight-border {
+  border-left: 2px dashed var(--colorRed);
+  height: 100px;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 767px) {
+  .mt0Mob {
+    margin-top: 0;
+  }
+  .straight-border2 {
+    position: relative;
+    border-left: 2px dashed var(--colorRed);
+    height: 100px;
+    left: 50%;
+    top: 50px;
+  }
+}
+
+/* Ellipse CSS  */
+
+#loading {
+  -webkit-animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#loading1 {
+  -webkit-animation: rotation1 7s infinite linear;
+}
+@keyframes rotation1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+#loading2 {
+  -webkit-animation: rotation2 6s infinite linear;
+}
+@keyframes rotation2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.round_box {
+  position: relative;
+}
+.round_box h3 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  right: 0px;
+  transform: translate(-50%, -50%);
+}
+.box_round_one {
+  position: absolute;
+  left: 0px;
+}
+.box_round_two {
+  position: absolute;
+  right: 0px;
+}
+.box_round_three {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Line CSS  */
+.squiggle {
+  stroke-dasharray: 450;
+  stroke-dashoffset: 450;
+  animation: draw 2s linear forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Red Border CSS  */
+.border_red::before {
+  content: "";
+  border: 2.5px dashed red;
+  position: absolute;
+  height: 0px;
+  transition: all 0.5s linear 0s;
+  left: 50%;
+}
+
+.border_red:hover::before {
+  content: "";
+  border: 2.5px dashed red;
+  position: absolute;
+  height: 140px;
+  transition: all 0.5s linear 0s;
+}
+
+.h_145 {
+  height: 145px;
+}
+
+/*scroll*/
+.lineView,
+.lineView1,
+.lineView2,
+.lineView3,
+.lineView4,
+.lineViewSkill {
+  position: relative;
+}
+.lineView::before,
+.lineView1::before,
+.lineView2::before,
+.lineView3::before,
+.lineView4::before {
+  content: "";
+  border: 2.5px dashed red;
+  position: absolute;
+  height: 0px;
+  transition: all 0.5s linear 0s;
+  left: 50%;
+  -webkit-transition: all 0.8s linear 0s;
+  transition: all 0.8s linear 0s;
+}
+.lineView.start::before,
+.lineView1.start::before,
+.lineView2.start::before,
+.lineView3.start::before,
+.lineView4.start::before {
+  /* width: 100%; */
+  height: 100%;
+}
+.lineView1::before {
+  /* background: #e0e0e0 !important; */
+}

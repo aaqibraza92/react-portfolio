@@ -1,0 +1,46 @@
+.radius20 {
+  border-radius: 15px;
+}
+
+.mobile-ul li::before {
+  content: "";
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px;
+  background: #fff;
+  position: relative;
+  top: -2px;
+  left: -10px;
+}
+
+.ml90 {
+  margin-left: 90px;
+}
+
+.scards {
+  background-color: #262629;
+}
+
+.scards-img {
+  background-color: #2a2b2d;
+}
+
+/* Slider CSS */
+/* .swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background: url(../../Assets/Img/leftarrow.png);
+  background-repeat: no-repeat;
+}
+
+.swiper-button-next {
+  background: url(../../Assets/Img/rightarrow.png);
+  background-repeat: no-repeat;
+} */

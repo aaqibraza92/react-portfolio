@@ -1,0 +1,6 @@
+.step_select .themeSelect__control {
+    width: 92%;
+    margin-left: 9px;
+    border-radius: 3px;
+    border: 1px solid #e8e9e9 !important;
+  }

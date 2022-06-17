@@ -1,0 +1,13 @@
+.salon_list_img img {
+  width: 170px;
+  height: 115px;
+}
+
+.salon_list_btn button {
+  position: absolute;
+  top: 10px;
+  z-index: 99;
+  left: 10px;
+}
+
+

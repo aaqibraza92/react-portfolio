@@ -1,0 +1,248 @@
+.main_header {
+  background: var(--color_dark_jomney);
+  padding: 14px 0;
+  position: relative;
+  z-index: 1;
+}
+.filter_area > div {
+  width: 100%;
+}
+
+.filter_area > div > div > div {
+  border: none;
+}
+.filter_area > div > div > div > span {
+  display: none;
+}
+.sel_style__single-value {
+  color: #fff;
+}
+.filter_area > div > div {
+  background: transparent;
+  color: #fff;
+  border: none;
+}
+.sel_style__single-value {
+  color: #fff !important;
+  font-size: 17px;
+}
+.sel_style__placeholder {
+  color: #fff;
+}
+
+.filter_area {
+  justify-content: center;
+}
+.filter_btn {
+  background: #535979;
+  border: none;
+  color: #fff;
+  padding: 11px 28px;
+  border-radius: 7px;
+  font-size: 16px;
+}
+.filter_area > div {
+  border-right: 1px solid #535979;
+  padding-right: 10px;
+  margin-right: 10px;
+  width: 116px;
+}
+.filter_area > div:nth-child(3) {
+  border-right: none;
+}
+.sel_style__menu {
+  background: var(--color_jomney) !important;
+}
+.menu_right_area li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 17px;
+}
+.filter_area.language_style > div {
+  border-right: none;
+  margin-left: 0px;
+  width: 119px;
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.drop_down_area {
+  background: var(--color_jomney);
+  padding: 9px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.drop_down_area > svg:first-child {
+  margin-right: 12px;
+}
+
+.menu_right_area > li {
+  margin-right: 20px;
+}
+
+.divi {
+  border-bottom: 4px solid var(--color_jomney);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+.divi::before {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  top: -3px;
+}
+.divi::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #000;
+  position: absolute;
+  bottom: -6px;
+}
+.col1 img {
+  max-width: 100%;
+}
+.sel_style__control:focus {
+  border: none;
+  outline: none;
+}
+.logo_wrapper {
+  position: absolute;
+  width: 277px;
+  z-index: 1;
+  top: -28px;
+}
+.col1 {
+  padding-left: 12px;
+}
+
+.col3 {
+  z-index: 1;
+}
+.col2 {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.toggler {
+  margin-right: 0px !important;
+}
+.toggler .dropdown button {
+  padding: 0px;
+  background: transparent;
+  border: none;
+}
+.dropdown.show:focus {
+  border: none !important;
+}
+
+.top_links li a {
+  color: var(--color_grey_para);
+  font-size: 16px;
+}
+
+.toggler .dropdown-menu {
+  transform: translate3d(-98px, 60px, 0px) !important;
+  width: 200px !important;
+  border-radius: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.r_acc {
+  border-bottom: 1px solid #e5e5e5;
+}
+.top_links > li {
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.sel_style__option:hover {
+  background: var(--color_dark_jomney) !important;
+}
+.sel_style__option.sel_style__option--is-selected {
+  background: var(--color_dark_jomney) !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .src_wrapper .btn_theme {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+    .list_data a {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 14px;
+    }
+    .searchOpener + li {
+        margin-right: 0px;
+    }
+    header .col1 {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    body .wrapper_element {
+        padding: 0px;
+    }
+    .src_wrapper input {
+        width: 100%;
+        padding-left: 6px;
+    }
+    .moving_element {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .src_wrapper {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .slider_home.overflow_x_h {
+        overflow: hidden;
+        height: 400px;
+    }
+    .wrapper_layer {
+        width: 100%;
+        left: 0px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 52vh;
+    }
+    .filter_btn {
+        margin-top: 12px;
+        margin-bottom: 20px;
+    }
+    header .col3 {
+        width: 100%;
+    }
+    .menu_right_area {
+        justify-content: space-between !important;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .hide_default {
+        display: none;
+    }
+    .hide_default.opensearch {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+    .src_wrapper input {
+        padding-left: 10px;
+    }
+    body .col2 {
+        width: 100%;
+        top: 81px;
+        background: var(--color_dark_jomney);
+        padding: 9px 0;
+    }
+}

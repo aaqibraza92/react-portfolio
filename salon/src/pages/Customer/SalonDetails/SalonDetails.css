@@ -1,0 +1,18 @@
+.salon_detail_location {
+  padding: 20px 10px 20px 20px;
+  background-color: #ffeaec;
+  border-radius: 8px;
+  min-height: 105px !important;
+}
+
+.salon_detail_open_hrs {
+  padding: 20px 10px 20px 20px;
+  background-color: #eaf6fb;
+  border-radius: 8px;
+  min-height: 105px !important;
+}
+@media only screen and (max-width: 767px) {
+  .textMobLeft {
+    text-align: left !important; 
+  }
+}

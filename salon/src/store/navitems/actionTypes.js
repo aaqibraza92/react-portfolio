@@ -1,0 +1,3 @@
+export const NAV_ITEMS = "NAV_ITEMS"
+export const NAV_ITEMS_SUCCESS = "NAV_ITEMS_SUCCESS"
+export const NAV_ITEMS_ERROR = "NAV_ITEMS_ERROR"

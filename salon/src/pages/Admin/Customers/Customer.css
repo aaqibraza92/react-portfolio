@@ -1,0 +1,24 @@
+.customer_details_dropdown {
+  position: absolute;
+  right: 10px;
+}
+.money_bill {
+  background-color: #eaf6fb;
+}
+
+.customer_detail_border{
+    border-left: 2px solid #E2E3E9;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .mobpl15{
+    padding-left: 15px !important;
+  }
+  .mobpt0{
+    padding-top: 0px !important;
+  }
+}

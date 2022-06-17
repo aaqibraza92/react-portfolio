@@ -1,0 +1,11 @@
+.admin-login {
+    background-image: url(../../../assets/Img/admin/adminlogin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: calc(100vh - 120px); */
+    height: 100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

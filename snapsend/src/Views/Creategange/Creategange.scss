@@ -1,0 +1,44 @@
+.tabController {
+    background: var(--color_dark_jomney);
+    padding: 6px 6px;
+    border-radius: 8px;
+}
+.tabController > button.active {
+    background: var(--color_jomney);
+}
+.tabController > button {
+    margin-right: 10px;
+    width: 160px;
+    background: transparent;
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.tabController > button:last-child{
+    margin-right: 0px;
+}
+.rc-table-thead {
+    background: var(--color-dark-green);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.custom_select__indicator {
+    top: -5px !important;
+    position: relative;
+}
+.custom_select__placeholder {
+    top: 18px !important;
+}
+.custom_select__single-value {
+    top: 18px !important;
+}
+.min_194{
+    min-height: 194px;
+}
+.listGang {
+    max-height: 400px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 30px;
+}

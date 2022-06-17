@@ -1,0 +1,15 @@
+.memberwrapper.radius {
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+.memberwrapper:hover {
+    background: var(--color_jomney);
+    color: #fff;
+    border-color: var(--color_jomney) !important;
+}
+.memberwrapper:hover *{
+    color: #fff;
+}
+.memberwrapper:hover li::before{
+    background: #fff;
+}

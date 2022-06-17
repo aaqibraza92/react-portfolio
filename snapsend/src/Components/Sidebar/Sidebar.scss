@@ -1,0 +1,35 @@
+.sidebar {
+    background: var(--color-dark-green);
+    max-height: 100%;
+    height: 100vh;
+    top: 109px;
+    overflow-y: auto;
+    position: sticky;
+}
+.logopolice {
+    border: 4px solid #fff;
+    border-radius: 10px;
+}
+.menu_area a {
+    padding: 15px 26px;
+    border-radius: 18px;
+}
+.menu_area a:hover {
+    background: var(--color_dark_blue);
+}
+.menuWrapper {
+    border-top: 1px solid #6D9552;
+    border-bottom: 1px solid #6D9552;
+    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (min-width: 1200px) {
+    .mx-50{
+        max-width: 49%;
+    }
+  }
+
+

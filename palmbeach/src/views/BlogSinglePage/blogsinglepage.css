@@ -1,0 +1,159 @@
+/* .main-blogsinglepage-container{
+    width: 928px;
+    margin: auto;
+} */
+
+.bls-page-container{
+    width: 928px;
+    margin: auto;
+}
+
+
+.blogsinglepage-head{
+    /* width: 930px; */
+    margin: auto;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blogsinglepage-head-para{
+    width: 638px;
+    margin: auto;
+    text-align: center;
+    /* font-family: Space Mono; */
+    font-size: 18px;
+}
+
+.img-caption-div{
+    text-align: center;
+    margin: auto;
+}
+
+.nexon-img-title{
+    text-align: center;
+    width: 750px;
+    margin: auto;
+}
+
+
+.what-to-read-text-head{
+    /* width: 500px; */
+    /* font-size: 44px; */
+    margin:3rem auto;
+    text-align: center;
+}
+
+
+/* .leean-lester-ul{
+    list-style: none;
+    display: inline-flex;
+    line-height: 40px;
+}
+
+.leean-lester-ul li{
+    background-color: #FFFFFF;
+    padding: 8px 14px;
+} */
+
+.girl-img{
+    border-radius: 50%;
+}
+
+.leeann-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+img.fb-img-caption {
+    background: #FFFFFF;
+    border: 0px solid #EAEAEA;
+    box-sizing: border-box;
+    
+}
+
+/* img.fb-img-caption:hover{
+    background-color: #FAE04B;
+} */
+
+a.fb-img-caption {
+    padding: 25px 30px;
+    border: 1px solid #ddd;
+}
+
+.fb-img-logo{
+    margin-right: 15px;
+}
+
+.img-caption-ul{
+    line-height: 40px;
+    margin-bottom: 4rem;
+}
+
+.w_928 {
+    width: calc(100% - 187px);
+    margin: 0 auto;
+}
+
+.head_b {
+    display: flex;
+}
+.blog_img {
+    margin-right: 10px;
+}
+
+.social_icon a {
+    width: 100px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 3px 0px 5px;
+    /* padding: 9px 28px; */
+}
+p.p-share {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .w_928 {
+    width: calc(100% - 0px);
+  }
+  .leeann-div {
+    display: grid;
+}
+.social_icon a {
+    width: 50%;
+    /* text-align: center;
+    border: 1px solid #ddd;
+    padding: 3px 0px 5px; */
+    padding: 9px 28px;
+}
+.fb-img-logo {
+    margin-right: 0px;
+}
+a.fb-img-caption span {
+    display: none;
+}
+a.fb-img-caption {
+    padding: 9px 28px;
+    border: 1px solid #ddd;
+    width: 50%;
+    text-align: center;
+}
+p.p-share {
+    display: block;
+    font-size: 16px;
+}
+.blogsinglepage-head-para{
+    width: 100%;
+}
+.nexon-img-title{
+    width: 100%;
+}
+.what-to-read-text-head{
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,31 @@
+.btn-red {
+  background: #d50303;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+.btn-green {
+  background: #5cb84b;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+.btn-blue {
+  background: #37a3d2;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}
+
+.btn-darkBlue {
+  background: #522472;
+  border: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #fff;
+}

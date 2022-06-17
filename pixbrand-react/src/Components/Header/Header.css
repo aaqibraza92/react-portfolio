@@ -1,0 +1,277 @@
+header.topUp {
+  /* box-shadow: 0 3px 5px rgba(57,63,72,0); */
+  box-shadow: 0 1px 5px rgba(57, 63, 72, 0.08);
+}
+
+.noBgonDropDown.dropdown button {
+  background: transparent;
+  border: none;
+}
+
+button.btn:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.header_profile_img {
+  width: 45px;
+  height: 45px;
+}
+
+.input-width {
+  width: calc(100% - 139px);
+}
+
+.active-notification {
+  height: 6px;
+  width: 6px;
+  position: absolute;
+  top: 0px;
+  right: 5px;
+}
+/*menu*/
+.menuWrapper {
+  background: #000;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  z-index: 999;
+  overflow: hidden;
+  display: block;
+  -webkit-animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
+  animation-duration: 1s;
+  animation-direction: normal;
+}
+
+.closeAction {
+  z-index: 3;
+}
+.closeAction {
+  z-index: 99999 !important;
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+  top: 20px;
+}
+.menuWrapper .text-center {
+  text-align: left !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .menuWrapper .fs80 {
+    font-size: 40px;
+  }
+  .menuWrapper li a::before {
+    font-size: 12px;
+  }
+}
+.tiles {
+  display: flex;
+  flex-direction: column;
+  height: 150vh;
+  justify-content: center;
+  left: 50%;
+  opacity: .5;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%,-50%,0) rotate(22.5deg);
+}
+.tiles__line {
+  animation: 10s ease-in 1s infinite both running runner;
+  display: flex;
+  transform: translateX(25%);
+}
+body .tiles__line-img--large {
+  border-radius: 20vh;
+  width: 100vh;
+ 
+}
+
+.tiles__line-img {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 50%;
+  flex: none;
+  margin: 3vw;
+  height: 30vh;
+  margin: 3vw;
+  width: 30vh;
+}
+
+ .tiles__line:nth-child(2) {
+  animation-duration: 16s;
+}
+.tiles__line:nth-child(3) {
+  animation-duration: 22s;
+}
+
+
+@keyframes runner {
+  from{
+    transform: translateX(0%);
+  }
+  to {
+   transform:translateX(-25%)
+  }
+ }
+/*menu*/
+
+
+.menuOpened {
+  overflow: hidden;
+}
+/* .overlaymenu{
+  display: none;
+} */
+.menu, .overlay {
+  grid-area: 1/1/2/2;
+  position: relative;
+}
+
+.menuOpened .ovrr::before {
+  content: "";
+  background: #000;
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 99999;
+  transition: all 2s ease-in 0s;
+  transform: scaleY(0);
+  animation: overlayAnimate 2s, overlayAnimateCallback 8s;
+  bottom: 0%;
+}
+.menuClosed .ovrr::before {
+  content: "";
+  background: #000;
+  height: 0%;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  z-index: 99999;
+  transition: all 2s ease-in 0s;
+  transform: scaleY(0);
+  animation: overlayAnimate 2s, overlayAnimateCallback 8s;
+  bottom: 0%;
+}
+
+.menuOpened .fullNav li{
+  -webkit-animation-name: fadeInBottom;
+  animation-name: fadeInBottom;
+  animation-duration: 2.5s;
+  animation-direction: normal;
+  transition: height 2.5s;
+}
+
+@keyframes overlayAnimate {
+
+    0% {
+      height: 0vh;
+  }
+  100% {
+    height: 100vh;
+  }
+
+}
+
+@keyframes overlayAnimateCallback {
+
+  0% {
+    transform: translateY(20vh);
+}
+
+100% {
+  transform: translateY(-230vh);
+}
+
+}
+
+.overlay {
+  pointer-events: none;
+  z-index: 1000;
+}
+
+
+@keyframes fadeInBottom {
+  from {
+      
+      transform: translateY(40px);
+      opacity: 0;
+  }
+  to { opacity: 1 }
+}
+.draw {
+  animation: draw 1.5s ease-in-out forwards;
+  transform-origin: center bottom;
+  stroke: #000;
+  fill: #000;
+  transform: scaleY(0);
+  stroke-width: 2px;
+  position: relative;
+  left: -50px;
+}
+@keyframes draw {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+/*effect layer*/
+
+body {
+  height: 100%;
+}
+
+.buttons button {
+  border: none;
+  background: rgba(0, 0, 0, 0.02);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+.buttons #top {
+}
+
+.top-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -100%;
+  left: 0;
+  bottom: auto;
+  right: auto;
+  background: #ff0a2b;
+  transition: all 0.9s cubic-bezier(0.6, 0.05, 0.4, 1);
+}
+.top-layer.active {
+  top: 100%;
+  z-index: 99999999 !important;
+}
+.top-layer--2 {
+  background: #141618;
+  transition-delay: 0.6s;
+  z-index: 99999999 !important;
+}
+.top-layer--3 {
+  background: #ff0a2b;
+  transition-delay: 0.4s;
+  z-index: 99999999 !important;
+}
+.top-layer--4 {
+  background: #393939;
+  transition-delay: 0.2s;
+  z-index: 99999999 !important;
+}
+.top-layer--5 {
+  background: #141618;
+  transition-delay: 0.1s;
+  z-index: 99999999 !important;
+}
+
+
+/*effect layer*/
